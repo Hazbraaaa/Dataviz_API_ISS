@@ -1,0 +1,65 @@
+/* Fonts */
+@font-face {
+    font-family: "Supreme Spike";
+    src: url(fonts/supremespike-kvo8d.otf);
+}
+
+/* Global */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav Bar */
+.nav-bar {
+    display: flex;
+    background-color: rgb(204, 215, 228);
+}
+
+h1 {
+    font-family: "Supreme Spike";
+    letter-spacing: 0.5rem;
+    text-align: center;
+    width: 86%;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 30px;
+}
+
+.bigClock {
+    display: flex;
+    width: 8em;
+    height: 8em;
+    margin: 15px;
+    margin-left: 30px;
+    background-image: url("./image/TERRE.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+    /* centre tous les éléments verticalement */
+    justify-content: center;
+    /* aligne les éléments horizontalement */
+    align-items: center;
+    position: relative;
+}
+
+#iss {
+    width: 20%;
+    position: absolute;
+}
+
+.clock {
+    display: flex;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.598);
+}
+
+p {
+    margin: 2px;
+    color: rgb(255, 255, 255);
+    font-family: Helvetica, sans-serif;
+}
+
+/* Globe display */
+
