@@ -4,6 +4,11 @@
     src: url(fonts/supremespike-kvo8d.otf);
 }
 
+@font-face {
+    font-family: "B612";
+    src: url(fonts/B612-Regular.ttf);
+}
+
 /* Global */
 body {
     margin: 0;
@@ -13,7 +18,8 @@ body {
 /* Nav Bar */
 .nav-bar {
     display: flex;
-    background-color: rgb(204, 215, 228);
+    position: absolute;
+    top: 0; left: 30%;
 }
 
 h1 {
@@ -24,6 +30,9 @@ h1 {
     margin-top: auto;
     margin-bottom: auto;
     font-size: 30px;
+    color: rgb(81, 255, 0);
+    text-shadow: 2px 4px 20px;
+    background-color: rgba(0, 0, 0, 0.416);
 }
 
 .bigClock {
@@ -60,6 +69,27 @@ p {
     color: rgb(255, 255, 255);
     font-family: Helvetica, sans-serif;
 }
+ 
+#windows {
+    position: relative;
+}
+
+.data {
+    margin-bottom: 1em;
+}
+
+#dashboard {
+    width: 10%;
+    border: double rgb(102, 255, 0) 3px;
+    border-radius: 10px;
+    font-family: "B612";
+    color: rgb(102, 255, 0);
+    margin: 5em;
+    padding: 2em;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    box-shadow: 1px 2px 20px 1px rgba(102, 255, 0, 0.5)
+}
 
 /* Globe display */
-
